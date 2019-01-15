@@ -1,3 +1,24 @@
+# Application State
+
+## React-Redux
+
+1. Create the `<Provider />` component
+2. Pass it a reference to our Redux store
+3. Then, when a component needs to interact with the Redux store, wrap it in a `Connect` function/component/tag
+4. Configure the `Connect` function by telling it what different pieces of state we'll want out of our store; And what Action Creators we'll want to have wired up aswell.
+5. The `Connect` function, then will do all the "magic" for us and make sure that both the state and the action creators show up inside of our component as props.
+
+![](https://lh3.googleusercontent.com/-00JRMvhmFwA/XD0uZ6T__sI/AAAAAAAAltE/xD22WCHawBo0OjtXa25-tk0qjm5I7XsHACHMYCw/s0/2019-01-14_22-50-42.png)
+
+## Redux
+
+![](https://lh3.googleusercontent.com/-qv8SNto-hi0/XD0q0wu3kUI/AAAAAAAAlsg/aszrgxxjGOgFXDz8S-E-AH0aHFqCI8rkgCHMYCw/s0/2019-01-14_22-35-27.png)
+
+## Without Redux
+
+![](https://lh3.googleusercontent.com/-D2dKrMUee_A/XD0q6F0DUoI/AAAAAAAAlsk/wXELqorZrFo5xpzMntntA3Rx4UST8uLeACHMYCw/s0/2019-01-14_22-35-46.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
