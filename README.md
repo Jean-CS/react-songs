@@ -1,3 +1,5 @@
+This is just a simple app to learn the basics of `redux`
+
 # Application State
 
 ## React-Redux
